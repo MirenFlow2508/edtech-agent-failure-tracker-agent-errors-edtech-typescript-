@@ -1,0 +1,19 @@
+{
+  "name": "edtech-agent-failure-tracker",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "example": "tsx src/course_delivery_agent.ts",
+    "test": "tsx --test test/course_delivery_agent.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
